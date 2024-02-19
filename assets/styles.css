@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*resetto impostazioni browser*/
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar {
+  background-color: #5995D9;
+}
+.navbar-toggler{
+  background-color: #D9AB59 !important;
+  margin-top: -40px;
+}
+.navbar-toggler-icon{
+background-color: #ffffff !important;
+}
+
+/*gestione menu'*/
+
+.logo{
+  display: flex;
+  margin-top: -20px;
+}
+a{
+  text-decoration: none;
+  color:#ffffff;
+}
+.empty{
+  width: 100%;
+  background-color: #D9AB59;
+  height: 60px;
+  color:#ffffff;
+  text-align: center;
+  margin-top: -5px;
+}
+.empty h1{
+font-size: 34px;
+margin-top: 10px;
+}
+/*gestione features'*/
+.feature-1{
+  background-color: #847862;
+}
+.feature-2 {
+  background-color: #4F5459;
+}
+.feature-3 {
+  background-color: #5995D9;
+} 
+.feature-1{
+  width: 100%;
+text-align: center;}
+
+.feature-3{
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.immagine{
+  max-width: 450px;
+}
+/*gestione cover*/
+.content{
+  margin-top: 58px;
+.photo{
+  margin-top: 100px;
+
+  .cover{
+    width: 100%;
+  }
+}
+.photo img {
+  width: 100%; 
+} 
+}
+/*gestione intestazioni, liste e paragrafi*/
+.container2{
+  margin-right: 30px;
+}
+  .heading,
+  .heading1{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container1,
+  .container3{
+    margin-left: 30px;
+    margin-right: 25px;
+  }
+  .container2{
+    margin-right: 30px;
+  }
+  .container3{
+    margin-top: 18px;
+  }
+  .paragraph,
+  .paragraph1{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .elenco,
+  .list{
+    margin-left: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+  }                 
+  /*gestione footer*/
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color:#D9AB59;
+    height:140px;
+    width:100%;
+  }
+  .footer-one{
+    display: flex; 
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 15%;
+ 
+   } 
+   .facebook,
+   .instagram,
+   .youtube{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 90px;
+   }
+.logo1{
+  display: flex;
+  margin-top: -40px;
+  max-width: 85%;
+}
+
+  @media (min-width: 881px){
+    .paragraph{
+      font-size: 23px;
+    }
+    .list{
+      font-size: 23px;}
+  
+    .container-list,
+    .container-paragraph
+    {
+      width: 62%;
+    }
+    .container-paragraph{
+      margin-top: 150px;
+    }
+
+    }
+  /* Tablet Styles */
+
+  @media (min-width: 501px) and (max-width: 881px) {
+    body {
+      background-color: #ffffff; 
+    }
+/* intestazioni, liste e paragrafi */
+.heading{
+  margin-right: 5px;}
+  .container0,
+  .container2{
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .paragraph,
+.paragraph1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 100px;
+} 
+.elenco,
+.list{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin-left: 56px;
+  margin-right: 90px;
+  line-height: 1.4;
+}
+
+/*features*/
+    .feature-1,
+    .feature-2{
+      width: 50%;
+      display: flex;
+      justify-content: center;}    
+    .feature-3 {
+      width: 100%;
+      display: flex;
+      background-color:#5995D9;
+      justify-content: center;    }
+    .container3{
+      margin-top: 30px;   }
+}
+.footer{
+ display: flex;
+ margin-top: 90px;
+}
+.footer-one{
+  margin-right:60px;
+}
+.logo1{
+  margin-top: -20px;
+}
+.logo1 img {
+  width: 80%;
+ }
+
+
+  /* Desktop Styles */
+  @media (min-width: 881px) {
+
+    /*intestazioni, liste e paragrafi*/
+    .heading,
+    .heading1{
+      font-size: 46px;
+    }
+    .container0,
+    .container1,
+    .container2{
+      margin-left: 40px;
+    }
+    .paragraph,
+    .paragraph1{
+      font-size: 26px;
+      margin-left: 40px;
+      margin-right: 200px;
+    }
+    .elenco,
+    .list{
+      font-size: 26px;
+      margin-left: 85px;
+    }
+    .empty{
+      height: 100px;
+    }
+    .empty h1{
+      font-size: 50px;
+      margin-top: 14px;
+    }
+  }
+    .navbar-nav{
+      margin-right: 100px;
+    }
+    /* Desktop Styles segue */
+@media(min-width: 881px) {
+    .page {
+      width: 100%;
+    }
+       /* features */
+    .feature-1,
+    .feature-2,
+    .feature-4{
+        width: 33.33%;
+        display: flex;
+        justify-content: center;      }
+    .feature-4{
+        background-color: #5995D9;
+        }
+        
+      
+}
+ /* Altri devices */
+ @media (min-width: 260px) and (max-width: 430px) {
+  .logo1 img {
+    width: 80%;
+   }
+    .navbar-collapse {
+      background-color: #5995D9;
+    }
+   }
+  
+   .navbar-toggler{
+    margin-top: -15px;
+    margin-right: 90px;
+  }
+  .logo{
+    margin-top: -20px;
+  }
+
+   .logo img{
+    width: 80%;
+   }
+  .footer-one{
+    width: 20%;
+    margin-right: 130px;
+  }
+  
+    
+

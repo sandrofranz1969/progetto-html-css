@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*resetto impostazioni browser*/
+}
+
+.navbar {
+  background-color: #5995D9;
+}
+.navbar-toggler{
+  background-color: #D9AB59 !important;
+  margin-top: -40px;
+}
+.navbar-toggler-icon{
+background-color: #ffffff !important;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #657d99dc;
+  margin-top: 215px;
+}
+.container{
+  width: 50%;
+}
+.container1{
+  width: 50%;
+}
+.cont-text{
+  width: 100%;
+  margin-top: 30px;
+}
+.heading{
+  color:#ffffff;
+  font-size: 26px;
+  text-align: center;
+}
+.container2{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.heading1{
+  text-align: center;
+}
+.paragraph{
+line-height: 1.4;  
+font-size: 18px;
+margin-top: 20px;
+font-weight: normal;
+}
+.list{
+  font-size: 18px;
+  margin-top: 18px;
+  font-weight: normal;
+  margin-left: 20px;  
+}
+
+  /*gestione footer*/
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color:#D9AB59;
+    height:165px;
+    width:100%;
+  }
+  .footer-one{
+    display: flex; 
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 25%;
+ 
+   } 
+   .facebook,
+   .instagram,
+   .youtube{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    margin-top: 90px;
+   }
+.logo1{
+  display: flex;
+  margin-top: -40px;
+  max-width: 75%;
+}
+
+
+  /* Tablet Styles */
+  @media (min-width: 501px) and (max-width: 881px) {
+    .heading{
+    font-size: 30px;
+  }
+  .paragraph,
+  .list{
+    font-size: 20px;
+  }
+  .footer{
+    display: flex;
+    width: 100%;
+  }
+  .cont-text{
+    margin-top: 60px;
+  } 
+  }
+@media (min-width: 881px){
+  .heading{
+    font-size: 34px;
+  }
+  .paragraph,
+  .list{
+    font-size: 24px;
+    margin-right: 120px;
+  }
+  .list{
+    margin-left:40px;
+  }
+  .cont-text{
+    margin-top: 100px;
+  }
+  .footer{
+    display: flex;
+    width: 100%;
+  }
+    /* Altri devices */
+    @media (min-width: 260px) and (max-width: 430px) {
+      .logo1 img {
+        width: 80%;
+        margin-top: 20px;
+       }
+       .navbar-collapse {
+         background-color: #5995D9;
+       }    
+       .logo img{
+        width: 85%;
+       }
+      .footer-one{
+        width: 15%;
+        margin-right: 100px;
+      }
+      .central-side{
+        margin-top:145px;
+      }
+      .footer{
+        height:158px;
+      }
+    }}
